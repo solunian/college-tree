@@ -7,10 +7,12 @@
 </head>
 
 <div class="container">
+    
+    <!-- svelte-ignore missing-declaration -->
     <img alt="The project logo" src={duck} />
-    <h1>Our Team</h1>
-    <p>Hello, we are Daniel Cui, Bhargav Eranki, Prashant Kondayapalepu, Shine Chang. </p>
-    <p>Feel free to get in touch with me at [insert email or social media links here].</p>
+    <h1>Our Goal</h1>
+    <p>Hello, we are Daniel Cui, Bhargav Eranki, Prashant Kondayapalepu, and Shine Chang from Cupertino High School. Our goal is help high schools students find activities related to their career path in order to help them better prepare for college. Many high school students avoid prestigious oppurtunities because of the lack of information. Our website helps these high school students connect to different posts and become better connected to the community. </p>
+    <p>By connecting high school students with topics that they are interested in, we believe they have a better chance in getting into the college of their choice. </p>
 </div>
 
 
@@ -19,7 +21,7 @@
 <style>
     body {
         font-family: Arial, sans-serif;
-        background-color: rgb(15, 30, 231);
+        background-color: rgb(24, 35, 198);
     }
 
     h1 {
