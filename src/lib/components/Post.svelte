@@ -5,8 +5,9 @@
 
 <div class="flex flex-col py-2 px-2 border rounded-xl m-5">
     <h2>Post Title</h2>
-    <img src={placeholderImg} alt="" class="w-80 rounded-md"/>
-
+    <img src={placeholderImg} alt="" class="w-96 rounded-md"/>
+    
+    
     <div class="flex flex-row gap-1">
         <Tag/><Tag/>
         <Tag/><Tag/>
