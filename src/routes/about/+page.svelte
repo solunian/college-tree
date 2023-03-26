@@ -7,8 +7,6 @@
 </head>
 
 <div class="container">
-    
-    <!-- svelte-ignore missing-declaration -->
     <img alt="The project logo" src={duck} />
     <h1>Our Team</h1>
     <p>Hello, we are Daniel Cui, Bhargav Eranki, Prashant Kondayapalepu, Shine Chang. </p>
