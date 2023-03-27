@@ -13,8 +13,6 @@
 <h1>Create Opportunity Post</h1>
 
 <form on:submit|preventDefault={handleSubmit} class="flex flex-col gap">
-    <div class="flex flex-row"> 
-    </div>
     <label for="title">title</label><input type="text" name="title" bind:value={title}/>
     <label for="author">author</label><input type="text" name="author" bind:value={author}/>
     <label for="text">text</label><input type="text" name="text" bind:value={text}/>
@@ -25,7 +23,7 @@
 
     <!-- author, title, text, attachments, major, tags -->
     <button type="submit">
-        Submit
+        submit
     </button>
 </form>
 
