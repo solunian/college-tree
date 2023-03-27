@@ -12,13 +12,12 @@
 </script>
 
 <div>
-    {#if (feed === [])}
+    {#if (feed.length !== 0)}
         {#each feed as post}
-            <h>{post.title}</h>
-            <Post post />
+            <Post {...post} />
         {/each}
     {:else}
-        <h2>Enter username:</h2>
+        <h2>Tag to Search:</h2>
         <form on:submit|preventDefault={handleOnSearch} class="flex flex-col gap">
             <input type="text" name="tag" bind:value={tag}/>
             <button type="search">

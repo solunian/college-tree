@@ -14,7 +14,6 @@
 <div>
 	{#if (feed.length !== 0)}
         {#each feed as post}
-            <h>{post.title}</h>
             <Post {...post} />
         {/each}
     {:else}
