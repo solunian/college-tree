@@ -3,8 +3,25 @@
     let author = "", title = "", text = "", attachments = "", major = "", tags = "";
 
     const handleSubmit = () => {
-        // fetch();
-        // goto()
+        fetch("http://localhost:2023/post", {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body: JSON.stringify({
+                title : title,
+                author: author,
+                text  : text,
+                major : major,
+                tags  : tags,
+                attachments: attachments,
+            })
+        })
+        .then(res => res.json())
+        .then(res => {
+            console.log("Post POST result: ", res);
+        });
     }
 </script>
 
