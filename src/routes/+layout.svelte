@@ -6,7 +6,7 @@
 
 
 
-<div class="flex flex-col w-full font-poppins">
+<body class="flex flex-col w-full font-poppins">
   <Navbar/>
   <div class="flex flex-row justify-center">
     <main class="flex flex-col">
@@ -14,4 +14,4 @@
     </main>
     <CreateButton/>
   </div>
-</div>
+</body>
