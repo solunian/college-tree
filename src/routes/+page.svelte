@@ -1,11 +1,13 @@
 <script>
     import Graduation from '$lib/images/Grad.png';
+    import CollegeTreeThing from '../lib/components/CollegeTreeThing.svelte';
 </script>
 
 
 <div>
     <img alt="The project logo" src={Graduation} class="w-full p-0 -z-20" />
-
+    <CollegeTreeThing/>
+    
     <div class="px-56 pt-5">
         <div class="flex flex-col gap-4">
             <h1 class="text-3xl my-5">
