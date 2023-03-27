@@ -1,4 +1,5 @@
 <script>
+    import { goto } from "$app/navigation";
     
     let author = "", title = "", text = "", attachments = "", major = "", tags = "";
 
@@ -21,6 +22,7 @@
         .then(res => res.json())
         .then(res => {
             console.log("Post POST result: ", res);
+            goto("/feed");
         });
     }
 </script>

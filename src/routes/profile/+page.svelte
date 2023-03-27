@@ -57,9 +57,9 @@
         {username}
     </h2>
     <form on:submit|preventDefault={handleSaveChanges} class="flex flex-col gap">
-        <label for="bio">bio</label><input type="text" name="bio" bind:value={bio}/>
-        <label for="majors">major</label><input type="text" name="majors" bind:value={majors}/>
-        <label for="tags">tags</label><input type="text" name="tags" bind:value={tags}/>
+        <label for="bio">bio</label><input type="text" name="bio" class="w-96" bind:value={bio}/>
+        <label for="majors">major</label><input type="text" name="majors" class="w-96" bind:value={majors}/>
+        <label for="tags">tags</label><input type="text" name="tags" class="w-96" bind:value={tags}/>
 
         <!-- author, title, text, attachments, major, tags -->
         <button type="submit">
