@@ -10,9 +10,9 @@
     
     <!-- svelte-ignore missing-declaration -->
     <img alt="The project logo" src={duck} />
-    <h1>Our Goal</h1>
+    <h1>How we achieved this</h1>
     <p>Hello, we are Daniel Cui, Bhargav Eranki, Prashant Kondayapalepu, and Shine Chang from Cupertino High School. Our goal is help high schools students find activities related to their career path in order to help them better prepare for college. Many high school students avoid prestigious oppurtunities because of the lack of information. Our website helps these high school students connect to different posts and become better connected to the community. </p>
-    <p>By connecting high school students with topics that they are interested in, we believe they have a better chance in getting into the college of their choice. </p>
+    <p>This project was made using firebase to store the data of the individuals , tailwindcss, express, and svelte/html for the front end </p>
 </div>
 
 

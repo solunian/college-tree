@@ -18,7 +18,7 @@
     <!-- svelte-ignore missing-declaration -->
     <img alt="The project logo" src={Graduation} class="w-full" />
     <h1><b>Branch out towards College </b></h1>
-    <h5><b>Mission Statement<b/></h5>
-    <p>Hello, we are Daniel Cui, Bhargav Eranki, Prashant Kondayapalepu, and Shine Chang from Cupertino High School. Our goal is help high schools students find activities related to their career path in order to help them better prepare for college. Many high school students avoid prestigious oppurtunities because of the lack of information. Our website helps these high school students connect to different posts and become better connected to the community. </p>
+    <h5>Mission Statement</h5>
+    <p>Our mission is to connect high school students with oppurtunities related to their career choices. Many high school students lack the oppurtunity to participate in activites because they simply can't find anything that fits their future career. College Tree targets these individuals and helps them by connecting them to events in relation to their interests. We acheived this by using a database with stores information of the user and searches based on their characteristics.    </p>
     <p>By connecting high school students with topics that they are interested in, we believe they have a better chance in getting into the college of their choice. </p>
 </div>
