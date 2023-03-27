@@ -12,6 +12,7 @@
         </p>
     </a>
     <a href="/feed">feed</a>
+    <a href="/search">search</a>
     <a href="/about">about</a>
     <a href="/profile">profile</a>
 </header>
