@@ -83,7 +83,7 @@
     <!-- svelte-ignore a11y-img-redundant-alt -->
     <img src={CollegeBoard} alt="Image description" class= "center" width = "50" height = "50">
     <p>
-      
+      College Board is an essential resource for high schoolers who are planning to pursue higher education. As the organization responsible for administering standardized tests like the SAT and AP exams, College Board has a wealth of resources and information to help students prepare for college. On our website, you can access free test preparation materials, including practice tests, study guides, and sample questions. We also offer tools for finding and applying to colleges, such as our BigFuture platform, which provides personalized college recommendations based on your interests and preferences. Additionally, we offer a range of financial aid and scholarship resources to help make college more affordable. With College Board, you can stay on track for college admissions and take advantage of all the opportunities available to you. 
     </p>
 </a>
 </div>
