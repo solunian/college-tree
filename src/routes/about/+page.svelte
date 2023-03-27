@@ -10,7 +10,7 @@
     </h1>
     <img alt="The project logo" src={duck} />
     <h1 class='pt-3'>How we achieved this</h1>
-    <p>Hello, we are Daniel Cui, Bhargav Eranki, Prashant Kondayapalepu, and Shine Chang from Cupertino High School. Our goal is help high schools students find activities related to their career path in order to help them better prepare for college. Many high school students avoid prestigious oppurtunities because of the lack of information. Our website helps these high school students connect to different posts and become better connected to the community. </p>
+    <p>Hello, we are Daniel Cui, Bhargav Eranki, Prashant Kondayapalepu, and Shine Chang from Cupertino High School. Our goal is help high schools students find activities related to their career path in order to help them better prepare for college. Many high school students lose prestigious oppurtunities because of the lack of information. Our website helps these high school students connect to different organizations, volunteer opportunities, clubs and much more to become better connected to the community. </p>
     <p>This project was made using firebase, tailwindcss, express, and sveltekit. {"😁"}</p>
 </div>
 
