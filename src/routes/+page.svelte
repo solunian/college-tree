@@ -1,5 +1,8 @@
 <script>
     import Graduation from '$lib/images/Grad.png';
+    import Niche from '$lib/images/Niche.jpg';
+    import UsNews from '$lib/images/UsNews.png';
+    import CollegeBoard from '$lib/images/CollegeBoard.png';
 </script>
 
 
@@ -17,4 +20,71 @@
         </div>
 
     </div>
+</div>
+
+
+
+
+<head>
+<title>Three Vertical Boxes in a Single Row</title>
+<style>
+  .parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .box {
+    display: inline-block;
+    width: 30%;
+    height: 1000px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align:center
+  }
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
+</head>
+<div class="parent">
+<div class="box">
+  <h1 class="text-xl">
+  Resources
+  </h1>
+  <a href="https://www.niche.com">
+    <!-- svelte-ignore a11y-img-redundant-alt -->
+    <img src={Niche} alt="Image description">
+    <p>
+      Niche is an excellent resource for high schoolers who want to make informed decisions about their academic and career paths. With comprehensive information on schools, majors, and careers, Niche can help you find the right fit for your interests and aspirations. Our website features detailed profiles of colleges and universities, including reviews from students and alumni, as well as data on acceptance rates, average test scores, and more. We also offer resources for exploring majors and careers, such as salary data, job outlooks, and descriptions of typical job duties. With Niche, you can compare schools and majors, get advice on the admissions process, and make informed decisions about your future.
+    </p>
+</a>
+
+</div>
+<div class="box">
+  <h1 class="text-xl">
+  Resources
+  </h1>
+  <a href="https://www.usnews.com/best-colleges">
+    <!-- svelte-ignore a11y-img-redundant-alt -->
+    <img src={UsNews} alt="Image description" class= "center" width = "400" height = "400">
+    <p>
+      US College News is an invaluable resource for high schoolers who are considering their options for higher education. With in-depth coverage of college admissions, financial aid, and academic programs, US College News can help you make informed decisions about your future. Our team of experienced journalists and researchers provides up-to-date information on the latest trends and developments in the world of higher education, making it easy for you to stay ahead of the curve. Whether you're trying to choose the right college, navigate the admissions process, or find ways to finance your education, US College News has the information and insights you need to succeed. So if you're a high schooler who wants to make the most of your college journey, look no further than US College News.
+    </p>
+</a>
+</div>
+<div class="box">
+  <h1 class="text-xl">
+    Resources
+  </h1>
+  <a href="https://www.collegeboard.org">
+    <!-- svelte-ignore a11y-img-redundant-alt -->
+    <img src={CollegeBoard} alt="Image description" class= "center" width = "50" height = "50">
+    <p>
+      
+    </p>
+</a>
+</div>
 </div>
