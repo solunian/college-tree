@@ -48,7 +48,7 @@
 
 
 
-<h1 class="text-3xl mb-5">
+<h1 class="text-3xl my-8">
     Profile
 </h1>
 

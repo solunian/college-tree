@@ -12,6 +12,11 @@
 </script>
 
 <div>
+    <h1 class="text-3xl my-8">
+        Search
+    </h1>
+
+
     {#if (feed.length !== 0)}
         {#each feed as post}
             <Post {...post} />
@@ -27,3 +32,10 @@
     {/if}
     
 </div>
+
+
+<style>
+    input, button {
+        @apply border;
+    }
+</style>

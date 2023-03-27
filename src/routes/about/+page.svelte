@@ -2,17 +2,16 @@
     import duck from '$lib/images/duck.jpg';
 </script>
 
-<head>
-	<title>About Me</title>
-</head>
+
 
 <div class="container">
-    
-    <!-- svelte-ignore missing-declaration -->
+    <h1 class="text-3xl my-8">
+        About
+    </h1>
     <img alt="The project logo" src={duck} />
-    <h1>How we achieved this</h1>
+    <h1 class='pt-3'>How we achieved this</h1>
     <p>Hello, we are Daniel Cui, Bhargav Eranki, Prashant Kondayapalepu, and Shine Chang from Cupertino High School. Our goal is help high schools students find activities related to their career path in order to help them better prepare for college. Many high school students avoid prestigious oppurtunities because of the lack of information. Our website helps these high school students connect to different posts and become better connected to the community. </p>
-    <p>This project was made using firebase to store the data of the individuals , tailwindcss, express, and svelte/html for the front end </p>
+    <p>This project was made using firebase, tailwindcss, express, and sveltekit. {"😁"}</p>
 </div>
 
 
@@ -31,7 +30,7 @@
 
     .container {
         max-width: 600px;
-        margin: 0 auto;
+        margin: 3rem;
         padding: 20px;
         background-color: #ffffff;
         border-radius: 10px;
@@ -42,12 +41,13 @@
         display: block;
         margin: 0 auto;
         width: 200px;
-        border-radius: 50%;
+        border-radius: 20%;
     }
 
     p {
         margin-top: 20px;
+        padding: 0 3rem;
         line-height: 1.5;
-        text-align: justify;
+        text-align: center;
     }
 </style>

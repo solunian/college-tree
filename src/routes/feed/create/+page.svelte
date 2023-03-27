@@ -27,7 +27,9 @@
 
 
 
-<h1>Create Opportunity Post</h1>
+<h1 class="text-3xl my-8">
+    Create Opportunity Post
+</h1>
 
 <form on:submit|preventDefault={handleSubmit} class="flex flex-col gap">
     <label for="title">title</label><input type="text" name="title" bind:value={title}/>
